@@ -42,9 +42,9 @@ Została stworzona w oparciu o Java 21 oraz Spring Boot 3.5, zgodnie z wymagania
 
 ## Testowanie
 
-Aby uruchomić testy integracyjne:
-   ```bash
-   mvn test
+- Aby uruchomić testy integracyjne:
+  ```bash
+  mvn test
 
 W projekcie znajduje się jeden test integracyjny obejmujący tzw. happy path, napisany bez użycia mocków.
 
