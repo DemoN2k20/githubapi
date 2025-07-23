@@ -27,19 +27,24 @@ Została stworzona w oparciu o Java 21 oraz Spring Boot 3.5, zgodnie z wymagania
 
  ## Uruchomianie
  1. Sklonuj repozytorium:
+    ```bash
     git clone https://github.com/DemoN2k20/githubapi.git
     cd githubapi
-2. Zbuduj projekt:
+3. Zbuduj projekt:
+   ```bash
    mvn clean install
-3. Uruchom aplikację:
+5. Uruchom aplikację:
+   ```bash
    mvn spring-boot:run
-4. Wywołanie przykładowego endpointu:
+7. Wywołanie przykładowego endpointu:
+   ```bash
    GET http://localhost:8080/repositories/octocat
 
 ## Testowanie
 
 Aby uruchomić testy integracyjne:
-mvn test
+    ```bash
+    mvn test
 
 W projekcie znajduje się jeden test integracyjny obejmujący tzw. happy path, napisany bez użycia mocków.
 
